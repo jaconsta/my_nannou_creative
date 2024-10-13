@@ -16,6 +16,8 @@ pub enum RunOptions {
     AmplitudeNoise,
     // "FALLING_SAND"
     FallingSand,
+    // "RGB_LINEAR_TRANSITION"
+    RgbLinearTransition,
     // _
     InitialShapes,
 }

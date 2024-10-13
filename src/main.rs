@@ -6,6 +6,7 @@ mod cli_options;
 mod falling_sand;
 mod perlin_noise;
 mod rainbow_sinewave;
+mod rgb_linear;
 
 fn main() {
     let args = cli_options::Args::parse();
@@ -14,6 +15,7 @@ fn main() {
         RunOptions::PerlinNoise => perlin_noise::run(),
         RunOptions::AmplitudeNoise => rainbow_sinewave::run(),
         RunOptions::FallingSand => falling_sand::run(),
+        RunOptions::RgbLinearTransition => rgb_linear::run(),
         _ => basic_drawings::run(),
     };
 }
