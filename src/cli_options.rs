@@ -18,6 +18,8 @@ pub enum RunOptions {
     FallingSand,
     // "RGB_LINEAR_TRANSITION"
     RgbLinearTransition,
+    // "KONWAYS_GAME_OF_LIFE"
+    GameOfLife,
     // _
     InitialShapes,
 }
